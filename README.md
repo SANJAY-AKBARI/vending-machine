@@ -2,7 +2,7 @@
 For Best Practice How can I Solution the design Vending Machine Implementation and standard Coding.
 I have  implementation and design of Java Vending Machine has below classes and interfaces :
 
- #VENDING
+# VENDING
 
 1. VendingMachine
    In this Interface. It is Indicates the public API of vending machine, Generally all high-level functionality should go in this class
@@ -19,7 +19,7 @@ I have  implementation and design of Java Vending Machine has below classes and 
 5. Bucket
    Bucket is parameterized class to hold two objects. we can say kind  of Pair class.
    
- #ENUM
+# ENUM
 
 1. Item
    This Java Enum has represent Item default served by Vending Machine
@@ -29,7 +29,7 @@ I have  implementation and design of Java Vending Machine has below classes and 
    
 
 
- #EXCEPTIONS
+# EXCEPTIONS
 
 1. DoNotFullPaidException
    This Exception thrown by Vending Machine when a consumer tries to collect an item, without paying the full amount.
@@ -42,25 +42,20 @@ I have  implementation and design of Java Vending Machine has below classes and 
   
  
  
- 
- 
- #TESTING
- This Tests are working with Junit and Command line belows are briefly Instructions:
+# TESTING
+  This Tests are working with Junit and Command line belows are briefly Instructions:
  
    
- ####JUnit Test of Vending Machine Solution
+# JUnit Test of Vending Machine Solution
  
- 
- 
- I downloaded Plugins & Dependencies junit:junit:4.13.1 with org.hamcrest:hamcrest-core:1.3
- more information click on External Libraries left hand side.
- 
- With the help of unit test class for the Vending Machine problem, 
- Which tests some behaviors of Vending machine e.g buying products with correct change, with more change, less change, 
- Canceling an product, resetting the vending machine, etc. 
+I downloaded Plugins & Dependencies junit:junit:4.13.1 with org.hamcrest:hamcrest-core:1.3
+For More information click on External Libraries left hand side.
+With the help of unit test class for the Vending Machine problem, 
+Which tests some behaviors of Vending machine e.g buying products with correct change, with more change, less change, 
+Canceling an product, resetting the vending machine, etc. 
   
   
-  #Note  Belows set up are as per my machine. It might you have diff set up please make sure check it.
+# Note  Belows set up are as per my machine. It might you have diff set up please make sure check it.
   
 1. In Junit VendingMachineTest I created in Configurations to run below Junit test
 
@@ -76,7 +71,7 @@ I have  implementation and design of Java Vending Machine has below classes and 
    Shorten command line : use-local default
    
 2. This test includes
-   #testBuyItemWithMorePrice
+   # testBuyItemWithMorePrice
    Name: VendingMachineTest.testBuyItemWithMorePrice
    Class: vending.VendingMachineTest
    Method: testBuyItemWithMorePrice
@@ -85,26 +80,20 @@ I have  implementation and design of Java Vending Machine has below classes and 
    JRE : 1.8.0_241
    Shorten command line : use-local default
    
-   
-   
-   
-   ####How to run in Command line
+# How to run in Command line
   
    For command line how to run and what is requirement so I created Step By step instructions as below.
    
-   #Note This steps are might be different for your set up please make sure including all versions
+   # Note This steps are might be different for your set up please make sure including all versions
    
-   
-   
-   
-   #FIRST STEP
+   # FIRST STEP
    
    How  to check Install JDK in window 10 machine. I need to do it for my machine.
    Make sure JDK install in your machine and JAVA_HOME environment Variable configured too. 
    So how do we check whether we have or not.
    In your machine left hand side bottom search bar just type in advance and screen appear with In settings.
    
-   #View advanced system settings
+   # View advanced system settings
    click on it. It will take you to Environment variables page.
    
    In my machine I have User variables for Sanjay
@@ -115,8 +104,8 @@ I have  implementation and design of Java Vending Machine has below classes and 
    This is Optional ( Variable Name M2_HOME 
                      Variable Value    G:\software\apache-maven-3.6.3 or C:\Users\Sanjay\.m2)
                                                           
-   #SECOND STEP
-   #How to download apache maven                         
+   # SECOND STEP
+   # How to download apache maven                         
    
    How to Install apache maven in window 10.
    We need to download apache maven zip from official website and Unzipped to the folder.
@@ -136,7 +125,7 @@ I have  implementation and design of Java Vending Machine has below classes and 
    You will get Unzipped file with same Name you can apache-maven folder. Where ever you like it.
    In my machine I have this folder path from download.
     
-   #C:\Users\Sanjay\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3
+   # C:\Users\Sanjay\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3
    Copy above path for variable value.
    
    # THIRD STEP
@@ -157,8 +146,9 @@ I have  implementation and design of Java Vending Machine has below classes and 
    
    Now Let’s us Verify whether the apache maven property configuration in window 10 machine.
    
-   #FORTH STEP
-   #How to log in Command Prompt
+   # FORTH STEP
+   
+   # How to log in Command Prompt
    In click on left hand side bottom search bar and type it cmd or command. It will appear dark screen.
    which is mentioned your path. I have below path
     
